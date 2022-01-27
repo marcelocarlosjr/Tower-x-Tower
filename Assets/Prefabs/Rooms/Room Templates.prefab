@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8261267473090185264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8261267473090185262}
+  - component: {fileID: 8261267473090185265}
+  - component: {fileID: 8261267473090185263}
+  m_Layer: 0
+  m_Name: Room Templates
+  m_TagString: Rooms
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8261267473090185262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8261267473090185264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8261267473090185265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8261267473090185264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed8f8ad39cd2c428f841f9bc6cb874d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minHallways: 4
+  leftDoorRooms:
+  - {fileID: 1585379201160213111, guid: e8c3a1de34c374a2aa6527d68555d6d6, type: 3}
+  - {fileID: 6064261744316498978, guid: e58197fedee49f34cb70b1a97840d899, type: 3}
+  - {fileID: 6064261744316498978, guid: 1aa328435ba70c24192634dfdb0c857c, type: 3}
+  - {fileID: 6064261744316498978, guid: b451b85114bc94c41bb6abeed1f6a0ce, type: 3}
+  - {fileID: 6064261744316498978, guid: a5b60d74eaea2424f9449f3bfa892246, type: 3}
+  - {fileID: 6064261744316498978, guid: a8b9bc1a899a9bf499c6ce2f0a0841b3, type: 3}
+  - {fileID: 6064261744316498978, guid: dc8d4a0db869b2141b6190cf772b7f20, type: 3}
+  - {fileID: 6064261744316498978, guid: 55cf08c628b674e46b6d19cae2d9a05a, type: 3}
+  - {fileID: 6064261744316498978, guid: 46250036de42afb4fab1f18ad1e89b2d, type: 3}
+  - {fileID: 6064261744316498978, guid: 8a0db5b173243e24ca4e05abdff4d455, type: 3}
+  - {fileID: 6064261744316498978, guid: 25171cef7268a7f4186b33fa81a156cc, type: 3}
+  rooms: []
+  RoomsParent: {fileID: 0}
+  waitTime: 2
+  spawnedBoss: 0
+  boss: {fileID: 8174387740967549217, guid: af7a735b415df5e44919289592eb0c43, type: 3}
+  lastRoom: 0
+--- !u!114 &8261267473090185263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8261267473090185264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 088c9878e512efe45b8a6e9403f6c5cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

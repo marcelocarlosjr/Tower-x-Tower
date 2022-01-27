@@ -1,0 +1,321 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1768198639284861156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1768198639284861154}
+  - component: {fileID: 1768198639284861155}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1768198639284861154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768198639284861156}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1768198639284861155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768198639284861156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22479744a99c5fc4cb6cdb5c455a9593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicVolume: 0
+  sfxVolume: 0
+  sounds:
+  - name: towerAutoShoot
+    clip: {fileID: 8300000, guid: cd48fe25131ac314fa79abefc36529ff, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: towerCannonShoot
+    clip: {fileID: 8300000, guid: e3a44dcbd4c376f47b27f1728cff91d9, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: towerFastShoot
+    clip: {fileID: 8300000, guid: e8d5e7ef32b1f6d4885d0089663550d4, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: towerFreezeShoot
+    clip: {fileID: 8300000, guid: 96750eeadf7f3a84aaefbfa7431bcd77, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: towerSniperShoot
+    clip: {fileID: 8300000, guid: 841ca8f7394452045b890215a4c16ea4, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: towerShotgunShoot
+    clip: {fileID: 8300000, guid: 7b772e313d6ac45469ec599900984a4e, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: B_Death
+    clip: {fileID: 8300000, guid: 0bf13e9cecf224b4e8988f482e39ec9a, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: B_Hurt
+    clip: {fileID: 8300000, guid: 3d6040e3fa529654a9fd50ce7c10c564, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: B_Footstep
+    clip: {fileID: 8300000, guid: a6c1d49beda2146408041f9a6c1f9c91, type: 3}
+    volume: 0.07
+    pitch: 1
+    loop: 1
+    soundType: 1
+    source: {fileID: 0}
+  - name: B_PlaceTower
+    clip: {fileID: 8300000, guid: 939924a59f1fca04b8419b1dace6a708, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: towerShotgunReload
+    clip: {fileID: 8300000, guid: 32d1089fe31b494419e066817d1963c3, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: enemyBatHurt1
+    clip: {fileID: 8300000, guid: 6a6e7b23625436f4c988a5d7edd85163, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: enemyBatHurt2
+    clip: {fileID: 8300000, guid: d0d7f9c7b0a669f40926ad2da1d64aa2, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: enemyBatDeath
+    clip: {fileID: 8300000, guid: 8714cb4d3482ddb4d8b57a697bedea6f, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: roomDoorOpen
+    clip: {fileID: 8300000, guid: f2e5a2d0cdb98e44c84af2fd24551db9, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: roomFire
+    clip: {fileID: 8300000, guid: e64937b21b9e4404180d149957a8f956, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    soundType: 1
+    source: {fileID: 0}
+  - name: enemySloppyJoeHurt1
+    clip: {fileID: 8300000, guid: 0842f46146c33f14a9cbeca341a17413, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: enemySloppyJoeHurt2
+    clip: {fileID: 8300000, guid: d104c27e7ebb065458486371ebd1603c, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: enemySloppyJoeDeath
+    clip: {fileID: 8300000, guid: 715a6870d2c5c9f43ab8730fa0458afb, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: enemySkeletonHurt
+    clip: {fileID: 8300000, guid: 52f84ddeb5fcb164a80aa62d6d088fd8, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: onButtonClick
+    clip: {fileID: 8300000, guid: e4ac20d69fdacb149b4ed3af2ca6507f, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: onButtonHover
+    clip: {fileID: 8300000, guid: 174a777ac0e39ca47a2dfe9f221a521d, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: themeHamuhh
+    clip: {fileID: 8300000, guid: deffbedfa898e9848960bf1e41e8c0db, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    soundType: 0
+    source: {fileID: 0}
+  - name: barrelExplode
+    clip: {fileID: 8300000, guid: 01e1ca2729464414c8029bf1f26e1bde, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: bossDoorClose
+    clip: {fileID: 8300000, guid: a1b866f3b35b90e4cb00a04721ec677a, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: bossDoorOpen
+    clip: {fileID: 8300000, guid: 1c85c7e873910804aaa90a174abba14b, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: collectMoney
+    clip: {fileID: 8300000, guid: 184a9a844b59bdf42b0eb42eb452eb97, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: doorClose
+    clip: {fileID: 8300000, guid: 575fb22ce1560be4facaac440d93d476, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: hammyAttack
+    clip: {fileID: 8300000, guid: b70753f2c337f314591adea5ba56dc18, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: hammyDeath
+    clip: {fileID: 8300000, guid: f040f3a70c8ef9940a57018c05ee72fd, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: hammyHurt1
+    clip: {fileID: 8300000, guid: bb3e040345c88454f9f33ec0b8be1702, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: hammyHurt2
+    clip: {fileID: 8300000, guid: 429c49d5e5b039e4db5cde19076d17eb, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: KingHDeath
+    clip: {fileID: 8300000, guid: fd4e1e76261445840a71e182ae0cef1a, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: KingHJump
+    clip: {fileID: 8300000, guid: 203f00e7f32dbc842b4a57b37c6cbef2, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: KingHHurt
+    clip: {fileID: 8300000, guid: 9b1594f516e26344094acd1ba636e104, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: KingHHurt2
+    clip: {fileID: 8300000, guid: 9a49aba33deaf2d408961ea7e0325801, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: thanatosDeath
+    clip: {fileID: 8300000, guid: 82a8a8fb61925254baa9fd81bad28eec, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: thanatosHurt1
+    clip: {fileID: 8300000, guid: de9f1e4fd7ae0144d8796edfa87f1bdd, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
+  - name: thanatosHurt2
+    clip: {fileID: 8300000, guid: 3ea00a6884e87564ab9282e004676e65, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    soundType: 1
+    source: {fileID: 0}
